@@ -200,12 +200,12 @@ a.scrollMore {
   background-image: url("../images/srishankaragranthavali.jpg");
 
   /* Set a specific height */
-  min-height: 700px; 
+  min-height: 510px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: 50% 90%;
   background-repeat: no-repeat;
-  background-size: 750px;
+  background-size: 720px;
 }
 
