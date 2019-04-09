@@ -83,7 +83,7 @@ $headerData = "
 			else{
 				
 				$pageoffset = $page - $offsets[$bookId][1] + $offsets[$bookId][0];
-				$liElement .= "<a href=\"../public/data/". $bookId .".pdf#page=". $pageoffset ."&view=fitV\">" . $title . "</a>\n";
+				$liElement .= "<a href=\"../public/data/" . $bookId . ".pdf#page=" . $pageoffset . "&view=fitV\" target=\"_blank\">" . $title . "</a>\n";
 			}
 
 			$page = (string)$sone["page"]; 
@@ -103,7 +103,7 @@ $headerData = "
 		$htmlData .= $list . "\n";
 		$htmlData .= "\n</div>
 		<div class=\"col-md-3 booksCollection image-fix\">
-             <a href=\"../public/data/" . $bookId . ".pdf#page=1&view=fitV\"><img class=\"img-responsive\" src=\"images/covers/". $bookId .".jpg\" /><h5 class=\"card-title\">" . preg_replace("/\(/","<br />(",$bookTitle) . "</h5></a>
+             <a href=\"../public/data/" . $bookId . ".pdf#page=1&view=fitV\"  target=\"_blank\"><img class=\"img-responsive\" src=\"images/covers/" . $bookId . ".jpg\" /><h5 class=\"card-title\">" . preg_replace("/\(/","<br />(",$bookTitle) . "</h5></a>
 		</div>	
 	</div>
 </div>
@@ -111,8 +111,8 @@ $headerData = "
 </body>
 </html>\n";
 		
-		file_put_contents($bookId . ".html",$htmlData);	
-	}
+		file_put_contents("../html/" . $bookId . ".html",$htmlData);	
+}
 
 		
 
@@ -146,7 +146,7 @@ function getChildrens($element,$bookId,$offsets){
 		else{
 			
 			$pageoffset = $page - $offsets[$bookId][1] + $offsets[$bookId][0];
-			$liElement .= "<a href=\"../public/data/". $bookId .".pdf#page=". $pageoffset ."&view=fitV\">" . $title . "</a>\n";
+			$liElement .= "<a href=\"../public/data/" . $bookId . ".pdf#page=" . $pageoffset . "&view=fitV\" target=\"_blank\">" . $title . "</a>\n";
 		}	
 				 
 		$childrens = getChildrens($child,$bookId,$offsets);
