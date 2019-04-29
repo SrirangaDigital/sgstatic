@@ -2,7 +2,7 @@
 <!DOCTYPE smt SYSTEM "smt.dtd">
 
 <smt>
-	<book bid="001" title="ब्रह्मसूत्र भाष्यम् (Brahmasutra Bhasya)">
+	<book bid="001" title="ब्रह्मसूत्र भाष्यम् (Brahmasutra Bhashya)">
 		<s1 title="प्रथमोऽध्यायः" shloka="" page="0001">
 			<s2 title="प्रथमः पादः &#8212; स्पष्टब्रह्मलिङ्गवाक्यसमन्वयः" shloka="" page="0001">
 				<s3 title="उपोद्घातः" shloka="" page="0001">
@@ -455,7 +455,7 @@
 			</s2>
 		</s1>
 	</book>
-	<book bid="002" title="ब्रह्मसूत्र भाष्यम् (Brahmasutra Bhasya)">
+	<book bid="002" title="ब्रह्मसूत्र भाष्यम् (Brahmasutra Bhashya)">
 		<s1 title="द्वितीयोऽध्यायः" shloka="" page="0281">
 			<s2 title="प्रथमः पादः&#8212; त्रय्यन्तसमन्वये परोत्प्रेक्षितदोषनिरासेन स्त्रपक्षस्थापनम्" shloka="" page="0281">
 				<s3 title="१. स्मृत्यधिकरणम्" shloka="" page="0281">
@@ -948,7 +948,7 @@
 			</s2>
 		</s1>
 	</book>
-	<book bid="003" title="ब्रह्मसूत्र भाष्यम् (Brahmasutra Bhasya)">
+	<book bid="003" title="ब्रह्मसूत्र भाष्यम् (Brahmasutra Bhashya)">
 		<s1 title="तृतीयोऽध्यायः" shloka="" page="0559">
 			<s2 title="द्वितीयः पादः&#8212; तत्त्वं-पदार्थविवेकः" shloka="" page="0561">
 				<s3 title="१. सन्ध्याधिकरणम्" shloka="" page="0561">
